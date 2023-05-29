@@ -1,0 +1,45 @@
+body {
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+#login-section, #main-section {
+    width: 80%;
+    margin: auto;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form input {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fish-tank {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://64.media.tumblr.com/tumblr_lz7glmkCwD1r2bueto1_500.gif');
+    background-size: cover;
+}
